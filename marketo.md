@@ -33,7 +33,7 @@ Atributos obrigatórios:
 
 - `class="mktoImg"`
 - `Id`
-- `mktoName`
+- `mktoName` (Use um texto autoexplicativo)
 
 Exemplo:
 
@@ -49,7 +49,7 @@ Atributos obrigatórios:
 
 - `class="mktoImg"`
 - `Id`
-- `mktoName`
+- `mktoName` (Use um texto autoexplicativo)
 
 ```
 <img class="mktoImg" id="exampleImg" mktoName="Example Image">
@@ -59,3 +59,26 @@ Atributos obrigatórios:
 
 ## FORM
 
+### __Snippet__
+
+Atributos obrigatórios:
+
+- `class="mktoSnippet"`
+- `Id`
+- `mktoName` (Use um texto autoexplicativo)
+
+```
+<div class="mktoSnippet" id="exampleSnippet" mktoName="Example Snippet"></div>
+```
+
+### __Share Button__
+
+Atributos obrigatórios:
+
+- `class="mktoSnippet"`
+- `Id`
+- `mktoName` (Use um texto autoexplicativo)
+
+```
+<div class="mktoShareButton" id="exampleShareButton" mktoName="Example Share Button"></div>
+```
